@@ -1,0 +1,19 @@
+{% extends 'clinica/base.html'%}
+
+        {%load tags%}
+        {%load bootstrap_tags%}
+
+
+        {%block content%}
+
+        <form action="{% url "staff-new"%}" method="POST" role="form">
+            <legend> Add New Staff Member</legend>
+
+            {%csrf_token%}
+
+            {{form|as_bootstrap}}
+
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+
+        {%endblock%}
