@@ -1,0 +1,28 @@
+{% extends 'registration/base.html'%}
+        {%load bootstrap_tags%}
+
+
+
+        {%if form.errors%}
+
+        <p> Your username and password didn't match. Please try again.</p>
+
+        {%endif%}
+
+        {%block form-content%}
+
+        <form method="post" action="{% url 'django.contrib.auth.views.login' %}">
+
+            {%csrf_token%}
+
+            {{form|as_bootstrap}}
+
+            <button type="submit" value="login" class="btn btn-primary btn-lg btn-block">Login</button>
+
+            <input type ="hidden" name="next" value="{{next}}"/>
+
+
+
+        </form>
+
+        {%endblock%}

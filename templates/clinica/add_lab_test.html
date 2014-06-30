@@ -1,9 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends 'clinica/base.html'%}
 
-</body>
-</html>
+        {%load tags%}
+        {%load bootstrap_tags%}
+
+
+        {%block content%}
+
+        <form action="{% url "test-new"%}" method="POST" role="form">
+            <legend> Add New Lab Test Item</legend>
+
+            {%csrf_token%}
+
+            {{form|as_bootstrap}}
+
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+
+        {%endblock%}

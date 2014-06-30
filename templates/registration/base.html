@@ -1,0 +1,45 @@
+<!doctype html>
+
+   {% load staticfiles %}
+
+     <html>
+
+       <head>
+
+           <link href="{%static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+
+       </head>
+
+       <body>
+
+         <!--login modal-->
+
+         <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                         <h1 class="text-center">Login</h1>
+                     </div>
+
+                     <div class="modal-body">
+                         {%block form-content%}
+                         {%endblock%}
+                     </div>
+
+
+                 </div>
+             </div>
+         </div>
+
+                {% block content %}
+
+                {% endblock %}
+
+        <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+       </body>
+
+        </html>
+

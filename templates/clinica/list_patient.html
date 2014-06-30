@@ -1,0 +1,54 @@
+{%extends "clinica/base.html"%}
+
+        {%load render_table from django_tables2%}
+
+        {%block content%}
+
+        <table class="table table-condensed table-bordered">
+
+            <thead>
+
+              <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Gender</th>
+                  <th>Address</th>
+                  <th>Phone</th>
+                  <th>Birth Date</th>
+                  <th>Age</th>
+
+              </tr>
+
+
+            </thead>
+
+            <tbody>
+
+                {%for patient in patients%}
+                  <tr>
+                      <td>{{patient.first_name}}</td>
+                      <td>{{patient.last_name}}</td>
+                      <td>{{patient.gender}}</td>
+                      <td>{{patient.address}}</td>
+                      <td>{{patient.phone}}</td>
+                      <td>{{patient.dob}}</td>
+                      <td>{{patient.age}}</td>
+
+                      <td><a href="/clinica/patient/edit/{{patient.id}}/">Edit</a></td>
+                      <td><a href="/clinia/patient/delete/{{patient.id}}">Delete</a></td>
+                      <td><a href="#">History</a></td>
+                      <td><a href="#">Create Visit</a></td>
+                  </tr>
+
+                {%endfor%}
+
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+        {%endblock%}

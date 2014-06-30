@@ -23,19 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/views.py">
+      <file leaf-file-name="list_patient.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/list_patient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="47" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="37" column="72" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clinica/models.py">
+      <file leaf-file-name="base_1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/base_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="2" selection-start="912" selection-end="912" vertical-scroll-proportion="0.2977867" vertical-offset="272" max-vertical-offset="1335">
+            <state line="52" column="35" selection-start="0" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_visit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/list_visit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -44,83 +53,62 @@
       <file leaf-file-name="add_staff.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/clinica/add_staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="360">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/templatetags/__init__.py">
+      <file leaf-file-name="list_item.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/list_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/templatetags/tags.py">
+      <file leaf-file-name="list_test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/list_test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aits/urls.py">
+      <file leaf-file-name="list_staff.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/list_staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/urls.py">
+      <file leaf-file-name="add_lab_test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/add_lab_test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="74" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding>
-                <element signature="e#23#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding>
-                <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-                <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-                <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aits/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="29" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2730">
+            <state line="9" column="42" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinica/forms.py">
+      <file leaf-file-name="add_item.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/clinica/add_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-              <folding>
-                <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-                <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-                <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-                <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-                <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-              </folding>
+            <state line="14" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registration/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="29" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,26 +125,35 @@
       <list>
         <option value="$PROJECT_DIR$/clinica/admin.py" />
         <option value="$PROJECT_DIR$/clinica/forms.py" />
-        <option value="$PROJECT_DIR$/templates/clinica/base.html" />
-        <option value="$PROJECT_DIR$/aits/urls.py" />
-        <option value="$PROJECT_DIR$/aits/settings.py" />
         <option value="$PROJECT_DIR$/clinica/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/clinica/templatetags/tags.py" />
         <option value="$PROJECT_DIR$/clinica/models.py" />
         <option value="$PROJECT_DIR$/templates/clinica/add_item.html" />
         <option value="$PROJECT_DIR$/templates/clinica/add_lab_test.html" />
-        <option value="$PROJECT_DIR$/clinica/views.py" />
-        <option value="$PROJECT_DIR$/clinica/urls.py" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/registration/base.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/index.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/base_1.html" />
+        <option value="$PROJECT_DIR$/aits/urls.py" />
         <option value="$PROJECT_DIR$/templates/clinica/add_staff.html" />
         <option value="$PROJECT_DIR$/templates/clinica/add_patient.html" />
+        <option value="$PROJECT_DIR$/aits/settings.py" />
+        <option value="$PROJECT_DIR$/templates/clinica/base.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/list_patient.html" />
+        <option value="$PROJECT_DIR$/clinica/urls.py" />
+        <option value="$PROJECT_DIR$/clinica/views.py" />
+        <option value="$PROJECT_DIR$/templates/clinica/list_item.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/list_test.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/list_visit.html" />
+        <option value="$PROJECT_DIR$/templates/clinica/list_staff.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
-    <option name="y" value="74" />
-    <option name="width" value="809" />
-    <option name="height" value="719" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1368" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,10 +191,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.3 virtualenv at ~/virtualenvs/django_1.5.4 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -225,7 +217,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="clinica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,11 +319,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/registration" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -417,14 +465,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="74" width="809" height="719" extended-state="0" />
+    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14714494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -432,11 +480,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -456,81 +504,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/clinica/add_patient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/templatetags/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/templatetags/tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aits/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding>
-            <element signature="e#23#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-            <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-            <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aits/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="29" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2730">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding>
-            <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-            <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="134" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/clinica/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="76" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450" />
@@ -538,77 +511,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/clinica/add_patient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="46" column="44" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/templatetags/tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding>
-            <element signature="e#23#64#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="78" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-            <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-            <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="29" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2730">
-          <folding />
-        </state>
+        <state line="142" column="29" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2730" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding>
-            <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-            <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="134" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="22" column="134" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/views.py">
@@ -623,63 +566,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/clinica/add_patient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="37" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="28" column="37" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding>
-            <element signature="e#23#64#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="78" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-            <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-            <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="4824" selection-end="4824" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2715">
-          <folding />
-        </state>
+        <state line="142" column="0" selection-start="4824" selection-end="4824" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2715" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding>
-            <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-            <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="134" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="22" column="134" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/views.py">
@@ -694,80 +611,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/clinica/add_patient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="6" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="390">
-          <folding />
-        </state>
+        <state line="1" column="32" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding>
-            <element signature="e#23#64#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="44" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-            <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-            <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aits/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="4" selection-start="4828" selection-end="4828" vertical-scroll-proportion="0.0" vertical-offset="1924" max-vertical-offset="2715">
-          <folding />
-        </state>
+        <state line="142" column="4" selection-start="4828" selection-end="4828" vertical-scroll-proportion="0.0" vertical-offset="1924" max-vertical-offset="2715" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding>
-            <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-            <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <folding>
-            <marker date="1403551229017" expanded="true" signature="30:103" placeholder="import ..." />
-            <marker date="1403551229017" expanded="true" signature="142:151" placeholder="..." />
-            <marker date="1403551229017" expanded="true" signature="188:197" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <marker date="1403555550869" expanded="true" signature="23:98" placeholder="import ..." />
-            <marker date="1403555550869" expanded="true" signature="178:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="194:218" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="249:287" placeholder="..." />
-            <marker date="1403555550869" expanded="true" signature="265:287" placeholder="..." />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base.html">
@@ -775,82 +654,127 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/clinica/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="76" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aits/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aits/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="29" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="1807" max-vertical-offset="2730">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clinica/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinica/templatetags/tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="6" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinica/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="2" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/clinica/add_item.html">
+    <entry file="file://$PROJECT_DIR$/aits/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
+        <state line="21" column="94" selection-start="848" selection-end="848" vertical-scroll-proportion="0.545977" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/clinica/add_lab_test.html">
+    <entry file="file://$PROJECT_DIR$/templates/clinica/base_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="74" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <element signature="e#23#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="47" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/clinica/add_staff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="360">
+        <state line="52" column="35" selection-start="0" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/clinica/add_patient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="92" selection-start="209" selection-end="209" vertical-scroll-proportion="0.24096386" vertical-offset="0" max-vertical-offset="498">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aits/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="50" selection-start="5008" selection-end="5008" vertical-scroll-proportion="0.0" vertical-offset="1868" max-vertical-offset="2850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="115" selection-start="389" selection-end="389" vertical-scroll-proportion="-5.6666665" vertical-offset="14" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinica/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2669039" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinica/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="8" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/add_lab_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinica/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/clinica/add_item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="2" selection-start="912" selection-end="912" vertical-scroll-proportion="0.2977867" vertical-offset="272" max-vertical-offset="1335">
+        <state line="14" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/add_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/list_visit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/list_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/list_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/list_patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="72" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clinica/list_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>

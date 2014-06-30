@@ -141,8 +141,16 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'clinica',
     'django_forms_bootstrap',
+    'django_tables2',
 
 )
+
+TEMPLATE_CONTEXT_PROCESSORS = {
+    'django.core.context_processors.request',
+    'django.contrib.auth.context_processors.auth',
+}
+
+LOGIN_REDIRECT_URL = '/clinica/'
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 
