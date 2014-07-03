@@ -2,7 +2,17 @@
 
         {%load render_table from django_tables2%}
 
+        {%block nav_pills%}
+
+
+                <a href="{%url 'patient-new'%}">Add Patient</a>
+
+
+        {%endblock%}
+
         {%block content%}
+
+        {%if patients%}
 
         <table class="table table-condensed table-bordered">
 
@@ -24,6 +34,8 @@
 
             <tbody>
 
+
+
                 {%for patient in patients%}
                   <tr>
                       <td>{{patient.first_name}}</td>
@@ -42,11 +54,17 @@
 
                 {%endfor%}
 
+
+
             </tbody>
 
         </table>
 
+        {%else%}
 
+            <p>No Patients for the clinic</p>
+
+        {%endif%}
 
 
 

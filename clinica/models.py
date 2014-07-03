@@ -68,6 +68,13 @@ class Item(models.Model):
     def __unicode__(self):
         return self.name
 
+class PrescriptionItem(models.Model):
+    name_id = models.ForeignKey(Item)
+    dosage_qty = models.PositiveIntegerField(default=0,verbose_name="Dosage Quantity")
+
+    def __unicode__(self):
+        return self.name_id.name
+
 class Visit(models.Model):
     patient_id = models.ForeignKey(Patient,verbose_name="Patient")
     category = models.CharField(max_length=10,choices=CLINIC_TYPE,verbose_name="Type of Visit")
@@ -76,7 +83,7 @@ class Visit(models.Model):
     consultation = models.BooleanField(default='True',verbose_name="Consultation with Doctor Needed?")
     visit_date = models.DateTimeField(auto_now_add=True,verbose_name="Visit Date")
     lab_tests = models.ManyToManyField(LabTest,verbose_name='Required Lab Tests')
-    prescriptions = models.ManyToManyField(Item,verbose_name='Prescriptions')
+    prescriptions = models.ManyToManyField(PrescriptionItem,verbose_name='Prescriptions')
 
 
 

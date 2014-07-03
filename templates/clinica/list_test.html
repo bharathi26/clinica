@@ -1,0 +1,47 @@
+{%extends 'clinica/base.html'%}
+
+        {%block content%}
+
+        {%if tests%}
+
+        <table class="table table-bordered table-condensed">
+
+            <thead>
+
+              <tr>
+                  <th>Name</th>
+                  <th>Unit Cost</th>
+
+              </tr>
+            </thead>
+
+            <tbody>
+
+
+
+                {%for test in test%}
+                  <tr>
+                      <td>{{test.type}}</td>
+                      <td>{{test.unit_cost}}</td>
+
+                      <td><a href="/clinica/test/edit/{{test.id}}">Edit</a></td>
+                      <td><a href="/clinica/test/delete/{{test.id}}">Delete</a></td>
+
+                  </tr>
+
+                {%endfor%}
+
+
+
+            </tbody>
+
+
+        </table>
+
+        {%else%}
+
+            <p> No Lab tests defined yet</p>
+
+        {%endif%}
+
+        {%endblock%}

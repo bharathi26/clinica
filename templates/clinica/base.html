@@ -41,17 +41,18 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview</li>
-            <li><a href="#">Patients</a></li>
-            <li><a href="#">Visits</a></li>
-            <li><a href="#">Lab Tests Inventory</a></li>
-            <li><a href="#">Prescription Drugs Inventory</a></li>
-            <li><a href="#">Our Staff Members</a></li>
+            <li><a href="{%url 'patient-list'%}">Patients</a></li>
+            <li><a href="{%url 'visit-list'%}">Visits</a></li>
+            <li><a href="{%url 'test-list'%}">Lab Tests Inventory</a></li>
+            <li><a href="{%url 'item-list'%}">Prescription Drugs Inventory</a></li>
+            <li><a href="{%url 'staff-list'%}">Our Staff Members</a></li>
           </ul>
 
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
+          <h3 class="page-header">Dashboard | {%block nav_pills%}{%endblock%}</h3>
+
 
        {%block content%}
 

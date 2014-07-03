@@ -19,19 +19,27 @@ class PatientListView(ListView):
 
 
 class StaffListView(ListView):
-    pass
+    model = Staff
+    context_object_name = "staff"
+    template_name = "clinica/list_staff.html"
 
 
-class LabTestView(ListView):
-    pass
+class LabTestListView(ListView):
+    model = LabTest
+    context_object_name = "tests"
+    template_name = "clinica/list_test.html"
 
 
 class ItemListView(ListView):
-    pass
+    model = Item
+    context_object_name = "items"
+    template_name = "clinica/list_item.html"
 
 
 class VisitListView(ListView):
-    pass
+    model = Visit
+    context_object_name = "visits"
+    template_name = "clinica/list_visit.html"
 
 
 class CreatePatientView(CreateView):
@@ -72,4 +80,18 @@ class UpdatePatientView(UpdateView):
 class UpdateStaffView(UpdateView):
     model = Staff
     template_name = 'clinica/add_staff.html'
+
+
+class UpdateItemView(UpdateView):
+    pass
+
+
+class UpdateLabTestView(UpdateView):
+    pass
+
+
+class UpdateVisitView(UpdateView):
+    pass
+
+
 
