@@ -90,8 +90,9 @@ STATICFILES_DIRS = (
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
@@ -128,6 +129,16 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 )
 
+SUIT_CONFIG = {
+
+    'ADMIN_NAME': "St.Mary's Clinic Wakiso",
+    'SHOW_REQUIRED_ASTERISK': True,
+    'CONFIRM_UNSAVED_CHANGES': True,
+    'SEARCH_URL': '',
+    'MENU_OPEN_FIRST_CHILD': True
+
+}
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -135,13 +146,25 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #'django_admin_bootstrapped.bootstrap3',
+    'suit',
+    'django_admin_bootstrapped',
+    #'admin_tools',
+    #'admin_tools.theming',
+    #'admin_tools.menu',
+    #'admin_tools.dashboard',
+
+
+
+
+
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'clinica',
-    'django_forms_bootstrap',
-    'django_tables2',
+  
+
 
 )
 

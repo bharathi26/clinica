@@ -6,10 +6,11 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.views.generic import ListView
 
+
 from django.shortcuts import render_to_response
 
 
-from clinica.models import Patient, Staff, LabTest, Item, Visit
+from clinica.models import Patient, Staff, LabTest, Item, Visit, VisitItem, VisitTest
 
 
 class PatientListView(ListView):
@@ -69,7 +70,11 @@ class CreateLabTestView(CreateView):
     template_name = 'clinica/add_lab_test.html'
 
 class CreateVisitView(CreateView):
-    pass
+    model = Visit
+    template_name = 'clinica/add_visit.html'
+
+
+
 
 
 class UpdatePatientView(UpdateView):
@@ -83,15 +88,19 @@ class UpdateStaffView(UpdateView):
 
 
 class UpdateItemView(UpdateView):
-    pass
+    model = Item
+    template_name = 'clinica/add_item.html'
 
 
 class UpdateLabTestView(UpdateView):
-    pass
+    model = LabTest
+    template_name = 'clinica/add_lab_test.html'
 
 
 class UpdateVisitView(UpdateView):
     pass
+
+
 
 
 

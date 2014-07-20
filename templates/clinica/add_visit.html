@@ -6,8 +6,8 @@
 
         {%block content%}
 
-        <form action="{% url "test-new" %}" method="POST" role="form">
-            <legend> Add New Lab Test Item</legend>
+        <form action="{% url "visit-new"%}" method="POST" role="form">
+            <legend> Create Clinic Visit</legend>
 
             {%csrf_token%}
 
