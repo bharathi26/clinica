@@ -1,0 +1,43 @@
+{% if visits %}
+
+
+        <table class="table table-bordered table-condensed">
+
+            <thead>
+
+              <tr>
+                  <th>Diagnosis</th>
+                  <th>Visit Type</th>
+                  <th>Attendant</th>
+                  <th>Visit Date</th>
+
+              </tr>
+            </thead>
+
+            <tbody>
+
+
+                {%for visit in visits%}
+                  <tr>
+                      <td>{{visit.diagnosis}}</td>
+                      <td>{{visit.category}}</td>
+                      <td>{{visit.attendant}}</td>
+                      <td>{{visit.visit_date}}</td>
+
+                  </tr>
+
+                {% endfor %}
+
+
+
+            </tbody>
+
+
+        </table>
+
+        {%else%}
+
+             <p> No Medical History for this Patient</p>
+
+
+        {%endif%}

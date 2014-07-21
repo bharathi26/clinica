@@ -99,9 +99,9 @@ class Visit(models.Model):
     patient_id = models.ForeignKey(Patient, verbose_name="patient")
     category = models.CharField(max_length=10, choices=CLINIC_TYPE, verbose_name="Visit Type")
     diagnosis = models.TextField(verbose_name="diagnosis")
-    attendant = models.ForeignKey(Staff,verbose_name='attendant')
+    attendant = models.ForeignKey(Staff, verbose_name='attendant')
     consultation = models.BooleanField(default='True', verbose_name="consultation")
-    visit_date = models.DateTimeField(auto_now_add=True,verbose_name="Visit Date")
+    visit_date = models.DateTimeField(auto_now_add=True, verbose_name="Visit Date")
     lab_tests = models.ManyToManyField(LabTest, verbose_name=' Lab Tests', through='VisitTest')
     prescriptions = models.ManyToManyField(Item, verbose_name='Prescriptions',  through='VisitItem')
 

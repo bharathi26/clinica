@@ -135,11 +135,7 @@ SUIT_CONFIG = {
     'SHOW_REQUIRED_ASTERISK': True,
     'CONFIRM_UNSAVED_CHANGES': True,
     'SEARCH_URL': '',
-    'MENU_OPEN_FIRST_CHILD': True,
-
-    'MENU': (
-        {'label': 'Users', 'url': 'auth.user', 'icon': 'icon-user'},
-    )
+    'MENU_OPEN_FIRST_CHILD': True
 
 }
 
@@ -152,11 +148,16 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     #'django_admin_bootstrapped.bootstrap3',
     'suit',
-    #'django_admin_bootstrapped',
+    'django_admin_bootstrapped',
     #'admin_tools',
     #'admin_tools.theming',
     #'admin_tools.menu',
     #'admin_tools.dashboard',
+
+
+
+
+
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
