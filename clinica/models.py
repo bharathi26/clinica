@@ -121,6 +121,7 @@ class Visit(models.Model):
     lab_test_names.short_description = 'Lab Tests'
     prescription_names.short_description = 'Prescriptions'
 
+
 class VisitTest(models.Model):
     test = models.ForeignKey(LabTest)
     visit = models.ForeignKey(Visit)
@@ -139,6 +140,17 @@ class VisitItem(models.Model):
     class Meta:
         verbose_name = 'prescription'
         verbose_name_plural = 'Prescribed Drugs'
+
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+
+        super(VisitItem, self).save(False, False, None, None)
+
+        #update quantity field in Parent Model item
+
+        self.item.quantity -= self.quantity
+
+        self.item.save()
 
 
 

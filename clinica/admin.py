@@ -20,6 +20,14 @@ class StaffAdmin(admin.ModelAdmin):
 class VisitItemInline(admin.TabularInline):
     model = VisitItem
 
+    '''def save_model(self, request, obj, form, change):
+
+        obj_item = Item.objects.filter(name=obj.item.name)
+
+        obj_item.quantity = obj.quantity
+
+        obj_item.save()'''
+
 
 class ItemAdmin(admin.ModelAdmin):
     list_display = ('name', 'quantity', 'unit_cost', 'cost_price',)
