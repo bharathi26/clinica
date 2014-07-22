@@ -22,6 +22,9 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
 
+    url(r'^admin/patient/(?P<pk>[0-9]+)/visits/$', 'clinica.admin_views.visits'),
+
+    url(r'^admin/staff/(?P<pk>[0-9]+)/visits/$', 'clinica.admin_views.assignments'),
 
     url(r'^admin/', include(admin.site.urls)),
 

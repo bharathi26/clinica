@@ -138,7 +138,10 @@ SUIT_CONFIG = {
     'MENU_OPEN_FIRST_CHILD': True,
 
     'MENU': (
-        {'label': 'Users', 'url': 'auth.user', 'icon': 'icon-user'},
+
+        'auth',
+        'clinica',
+        {'label': 'Users', 'url': '/', 'icon': 'icon-user'},
     )
 
 }

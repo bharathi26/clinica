@@ -1,0 +1,59 @@
+{% extends "admin/clinica/base.html" %}
+
+
+
+{% block content %}
+
+
+    <table class="table table-condensed table-bordered">
+
+            <thead>
+
+              <tr>
+                  <th>Date</th>
+                  <th>Type</th>
+                  <th>Diagnosis</th>
+                  <th>Attendant</th>
+                  <th>Consultation</th>
+                  <th>Lab Tests</th>
+                  <th>Prescriptions</th>
+
+              </tr>
+
+
+            </thead>
+
+            <tbody>
+
+
+
+                {%for visit in visit_list%}
+                  <tr>
+                      <td>{{visit.visit_date.date}}</td>
+                      <td>{{visit.category}}</td>
+                      <td>{{visit.diagnosis}}</td>
+                      <td>{{visit.attendant}}</td>
+
+                      <td>{{visit.consultation}}</td>
+                      <td>{% for test in visit.lab_tests.all%}
+                          {{test}},{%endfor%}
+                      </td>
+
+                      <td>{%for item in visit.prescriptions.all%}
+                          {{item}}, {%endfor%}
+
+                      </td>
+
+
+                  </tr>
+
+                {%endfor%}
+
+
+
+            </tbody>
+
+        </table>
+
+</div>
+{% endblock %}

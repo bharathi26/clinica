@@ -23,10 +23,10 @@ CLINIC_TYPE = (
 class Patient(models.Model):
     first_name = models.CharField(max_length=30, verbose_name='First Name')
     last_name = models.CharField(max_length=30, verbose_name='Last Name')
-    gender = models.CharField(max_length=1, choices=GENDER_CHOICES,verbose_name='gender')
-    address = models.CharField(max_length=100,blank=True,verbose_name='address')
-    phone = models.CharField(max_length=30,blank=True, verbose_name='phone')
-    dob = models.CharField(max_length=30,verbose_name='Date of Birth', help_text='Please enter date of birth in format:dd/mm/yy', blank=True)
+    gender = models.CharField(max_length=1, choices=GENDER_CHOICES, verbose_name='gender')
+    address = models.CharField(max_length=100, blank=True, verbose_name='address')
+    phone = models.CharField(max_length=30, blank=True, verbose_name='phone')
+    dob = models.CharField(max_length=30, verbose_name='Date of Birth', help_text='Please enter date of birth in format:dd/mm/yy', blank=True)
     age = models.PositiveSmallIntegerField(default=0,verbose_name='age')
 
     class Meta:

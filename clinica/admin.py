@@ -6,9 +6,15 @@ from clinica.models import Patient, Staff, LabTest, Item, VisitTest, VisitItem, 
 
 
 class StaffAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name', 'phone', 'alternate_phone', 'email', 'designation',)
+    list_display = ('first_name', 'last_name', 'phone', 'alternate_phone', 'email', 'designation', 'assignment',)
     search_fields = ('first_name', 'last_name', 'phone')
     list_filter = ('designation',)
+
+    def assignment(self, request):
+
+        return "<a href='/admin/staff/%d/visits'>Assignments</a>" % request.id
+
+    assignment.allow_tags = True
 
 
 class VisitItemInline(admin.TabularInline):
@@ -43,14 +49,18 @@ class VisitPatient(admin.TabularInline):
 
 
 class PatientAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name', 'phone', 'address', 'dob', 'age',)
+    list_display = ('first_name', 'last_name', 'phone', 'address', 'dob', 'age', 'history')
     search_fields = ('first_name', 'last_name', 'address', 'phone', 'age')
     list_per_page = 50
     list_filter = ('address', 'age')
 
-    def visits(self):
-        return '<a href="?visit=%d">%s</a>' % (self.patient_id, self.patient)
-    visits.allow_tags = True
+    def history(self, request):
+
+        return "<a href='/admin/patient/%d/visits'>History</a>" % request.id
+
+    history.allow_tags = True
+
+
 
 
 admin.site.register(Staff, StaffAdmin)
