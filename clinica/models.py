@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 # Create your models here.
 
@@ -18,6 +19,75 @@ CLINIC_TYPE = (
     ('IN', 'INPATIENT'),
     ('OUT', 'OUTPATIENT'),
 )
+
+FUNCTIONAL_STATUS = (
+    ('NEW','NEWLY ACQUIRED'),
+    ('GOOD','GOOD WORKING CONDITION'),
+    ('REPAIR','DUE FOR SERVICE'),
+    ('UNREPAIRABLE','UNREPAIRABLE'),
+)
+
+ASSET_INVENTORY = (
+    ('MEDICAL','MEDICAL'),
+    ('ELECTRO', 'ELECTRO-MECHANICAL'),
+    ('FURNITURE','FURNITURE'),
+)
+
+
+class FixedAssetInventory(models.Model):
+    name = models.CharField(max_length=100, verbose_name='name')
+    category = models.CharField(max_length=100, choices=ASSET_INVENTORY, verbose_name='category')
+    acquired_on = models.DateField(null=False, verbose_name='Equipment Delivery Date')
+    service_period = models.PositiveIntegerField(verbose_name='Service Interval')
+    last_service_date = models.DateField(verbose_name='Last Service Date', blank=True)
+    service_due = models.BooleanField(default=False, verbose_name='Due for Service?')
+
+    def __unicode__(self):
+
+        return u'%s - %s' % (self.name, self.category)
+
+    class Meta:
+        verbose_name_plural = 'Fixed Asset Inventory'
+
+    def due_for_service(self):
+
+        """ Calculate when equipment is due for service
+        """
+
+        #get today's date
+
+        today = datetime.date.today()
+
+        #Calculate due date for service based on last service date and the service interval
+
+        service_due_date = self.last_service_date + datetime.timedelta(self.service_period)
+
+        # Setting service due boolean field
+
+        if service_due_date > today:
+            self.service_due = True
+
+
+
+
+
+
+
+
+class Supplier(models.Model):
+    name = models.CharField(max_length=100, verbose_name='name')
+    address = models.CharField(max_length=100, verbose_name='address')
+    phone = models.CharField(max_length=30, verbose_name='Phone Number')
+    alternate_phone = models.CharField(max_length=30, verbose_name='Alternate Phone Number', blank=True)
+    email = models.EmailField(max_length=100,verbose_name='Email', blank=True)
+
+    def __unicode__(self):
+
+        return u'%s' % self.name
+
+    class Meta:
+        verbose_name_plural = 'Suppliers'
+        ordering = ['name']
 
 
 class Patient(models.Model):
