@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 # Create your models here.
 
@@ -17,6 +18,13 @@ STAFF_DESIGNATION = (
 CLINIC_TYPE = (
     ('IN', 'INPATIENT'),
     ('OUT', 'OUTPATIENT'),
+)
+
+FUNCTIONAL_STATUS = (
+    ('NEW', 'NEWLY ACQUIRED'),
+    ('GOOD', 'GOOD WORKING CONDITION'),
+    ('REPAIR', 'DUE FOR SERVICE'),
+    ('UNREPAIRABLE', 'UNREPAIRABLE'),
 )
 
 
@@ -69,41 +77,17 @@ class Staff(models.Model):
     full_name = property(_get_full_name)
 
 
-class LabTest(models.Model):
-    type = models.CharField(max_length=100, verbose_name="name")
-    unit_cost = models.PositiveIntegerField(default=0, verbose_name='Unit Cost')
-
-    def __unicode__(self):
-        return u'%s' % self.type
-
-    class Meta:
-        verbose_name_plural = 'Lab Tests'
-        ordering = ['type']
-
-
-class Item(models.Model):
-    name = models.CharField(max_length=100,verbose_name="Drug Name")
-    quantity = models.PositiveIntegerField(default=0,verbose_name="quantity")
-    unit_cost = models.PositiveIntegerField(default=0,verbose_name="Retail Price")
-    cost_price = models.PositiveIntegerField(default=0,verbose_name="Wholesale Price")
-
-    def __unicode__(self):
-        return u'%s' % self.name
-
-    class Meta:
-        verbose_name_plural = 'Prescription Drugs'
-        ordering = ['name']
-
-
 class Visit(models.Model):
     patient_id = models.ForeignKey(Patient, verbose_name="patient")
     category = models.CharField(max_length=10, choices=CLINIC_TYPE, verbose_name="Visit Type")
+    symptoms = models.TextField(verbose_name='symptoms')
+    examination = models.TextField(verbose_name='Physical Examination')
     diagnosis = models.TextField(verbose_name="diagnosis")
     attendant = models.ForeignKey(Staff, verbose_name='attendant')
     consultation = models.BooleanField(default='True', verbose_name="consultation")
     visit_date = models.DateTimeField(auto_now_add=True, verbose_name="Visit Date")
-    lab_tests = models.ManyToManyField(LabTest, verbose_name=' Lab Tests', through='VisitTest')
-    prescriptions = models.ManyToManyField(Item, verbose_name='Prescriptions',  through='VisitItem')
+    lab_tests = models.ManyToManyField('sales.LabTest', verbose_name=' Lab Tests', through='VisitTest')
+    prescriptions = models.ManyToManyField('sales.Item', verbose_name='Prescriptions',  through='VisitItem')
 
     class Meta:
         verbose_name_plural = 'Clinic Visits'
@@ -123,7 +107,7 @@ class Visit(models.Model):
 
 
 class VisitTest(models.Model):
-    test = models.ForeignKey(LabTest)
+    test = models.ForeignKey('sales.LabTest')
     visit = models.ForeignKey(Visit)
 
     class Meta:
@@ -133,15 +117,15 @@ class VisitTest(models.Model):
 
 
 class VisitItem(models.Model):
-    item = models.ForeignKey(Item)
+    item = models.ForeignKey('sales.Item')
     visit = models.ForeignKey(Visit)
-    quantity = models.PositiveIntegerField(default=0, verbose_name="quantity")
+    #quantity = models.PositiveIntegerField(default=0, verbose_name="quantity")
 
     class Meta:
         verbose_name = 'prescription'
         verbose_name_plural = 'Prescribed Drugs'
 
-    def save(self, force_insert=False, force_update=False, using=None,
+    ''' def save(self, force_insert=False, force_update=False, using=None,
              update_fields=None):
 
         super(VisitItem, self).save(False, False, None, None)
@@ -150,7 +134,7 @@ class VisitItem(models.Model):
 
         self.item.quantity -= self.quantity
 
-        self.item.save()
+        self.item.save() '''
 
 
 

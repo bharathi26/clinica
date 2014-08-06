@@ -2,7 +2,7 @@ __author__ = 'julius kimuli'
 
 from django.contrib import admin
 from django.contrib.sites.models import Site
-from clinica.models import Patient, Staff, LabTest, Item, VisitTest, VisitItem, Visit
+from clinica.models import Patient, Staff, VisitTest, VisitItem, Visit
 
 
 class StaffAdmin(admin.ModelAdmin):
@@ -20,27 +20,9 @@ class StaffAdmin(admin.ModelAdmin):
 class VisitItemInline(admin.TabularInline):
     model = VisitItem
 
-    '''def save_model(self, request, obj, form, change):
-
-        obj_item = Item.objects.filter(name=obj.item.name)
-
-        obj_item.quantity = obj.quantity
-
-        obj_item.save()'''
-
-
-class ItemAdmin(admin.ModelAdmin):
-    list_display = ('name', 'quantity', 'unit_cost', 'cost_price',)
-    search_fields = ('name',)
-
 
 class VisitTestInline(admin.TabularInline):
     model = VisitTest
-
-
-class TestAdmin(admin.ModelAdmin):
-    list_display = ('type', 'unit_cost',)
-    search_fields = ('type',)
 
 
 class VisitAdmin(admin.ModelAdmin):
@@ -69,14 +51,8 @@ class PatientAdmin(admin.ModelAdmin):
     history.allow_tags = True
 
 
-
-
 admin.site.register(Staff, StaffAdmin)
 admin.site.register(Patient, PatientAdmin)
-
-
-admin.site.register(Item, ItemAdmin)
-admin.site.register(LabTest, TestAdmin)
 admin.site.register(Visit, VisitAdmin)
 
 admin.site.unregister(Site)

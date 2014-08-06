@@ -143,6 +143,9 @@ SUIT_CONFIG = {
 
         {'label': 'Users', 'url': '/admin/auth/user', 'icon': 'icon-user'},
         'clinica',
+        'expenditure',
+        'sales',
+        {'label': 'Asset Register', 'url': '/admin/asset_register'},
 
     )
 
@@ -167,6 +170,10 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'clinica',
+    'expenditure',
+    'sales',
+    'booking',
+    'asset_register',
   
 
 
