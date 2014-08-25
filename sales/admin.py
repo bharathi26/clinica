@@ -1,7 +1,7 @@
 __author__ = 'julius'
 
 from django.contrib import admin
-from .models import Item, LabTest, Supplier, Sale, SaleItem,SaleTest
+from .models import Item, LabTest, Supplier, Sale, SaleItem,SaleTest,Debtor
 
 
 class TestAdmin(admin.ModelAdmin):
@@ -21,6 +21,13 @@ class SupplierAdmin(admin.ModelAdmin):
 
 class SaleItemAdmin(admin.TabularInline):
     model = SaleItem
+    exclude = ('drug_amount',)
+
+    def save_model(self, request, obj, form, change):
+
+        obj.drug_amount = obj.item.unit_cost * form.cleaned_data['quantity']
+
+        super(SaleItemAdmin, self).save_model(request, obj, form, change)
 
 
 class SaleTestAdmin(admin.TabularInline):
@@ -29,6 +36,7 @@ class SaleTestAdmin(admin.TabularInline):
 
 class SaleAdmin(admin.ModelAdmin):
     exclude = ('total_amount',)
+    list_display = ('customer', 'processed_by', 'total_amount', 'full_pay', 'lab_test_names', 'prescription_names')
     inlines = [SaleItemAdmin, SaleTestAdmin]
 
 
@@ -36,3 +44,4 @@ admin.site.register(Sale, SaleAdmin)
 admin.site.register(Item, ItemAdmin)
 admin.site.register(LabTest, TestAdmin)
 admin.site.register(Supplier,SupplierAdmin)
+admin.site.register(Debtor)
